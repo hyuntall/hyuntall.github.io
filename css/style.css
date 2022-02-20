@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+}
+
+h1 {
+    color: cornflowerblue;
+    transition: color .5s ease-in-out;
+}
+
+.active {
+    color: tomato;
+}
+
+.hidden {
+    display: none;
+}
+
+#greeting {
+    text-align: center;
+}
+
+#clock {
+    text-align: center;
+    color: white;
+}
+
+.hello {
+    text-align: center;
+}
+
+#notepad {
+    float: right;
+    position: relative;
+    width: 25%;
+    min-height: 25%;
+    max-height: 25%;
+    background-image: url("./img/notepad.png");
+    background-size: 109% 116%;
+    background-position: center;
+    overflow: hidden;
+}
+
+#todo-form input{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    border-width: 0;
+}
+
+#todo-list{
+    width: 120%;
+    max-height: 200px;
+    list-style: none;
+    overflow-y: scroll;
+}
+
+#quoteImg{
+    float: left;
+    position: relative;
+    max-width: 75%;
+}
+
+#randomImg {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+}
+
+#quote {
+    width: 100%;
+    font-size: 30px;
+    color:white;
+}
+
+#weather {
+    width: 25%;
+    float: right;
+    font-size: 30px;
+    color: white;
+}
+

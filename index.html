@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <title>ㅎㅇㅎㅇ</title>
+    </head>
+    <body>
+        <div class="hello">
+            <h1 class='my-font' id="title">Hyuntall Web!</h1>
+        </div>
+        <form id="login-form" class="hidden">
+            <input required maxlength="15" 
+            type="text" placeholder="What's your name?"/>
+            <input type="submit" value="Log In"/>
+        </form>
+        <h1 id='greeting' class='hidden'></h1>
+        <h2 id="clock">00:00</h2>
+        <div id="notepad">
+        <form id="todo-form">
+            <input type="text" placeholder="메모장">
+        </form>
+        <ul id="todo-list"></ul>
+        </div>
+        <div id="quoteImg">
+            <img id="randomImg">
+            <div id="quote">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+        <script src="js/greetings.js"></script>
+        <script src="js/clock.js"></script>
+        <script src="js/quotes.js"></script>
+        <script src="js/background.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/weather.js"></script>
+    </body>
+</html>
